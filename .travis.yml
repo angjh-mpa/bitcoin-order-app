@@ -16,6 +16,7 @@ branches:
    - development
 before_script:
   - npm install -g @angular/cli
+  - npm update
 
 script:
   - ng build --prod --base-href https://github.com/angjh-mpa/bitcoin-order-app/
